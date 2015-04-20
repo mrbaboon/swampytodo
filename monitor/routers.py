@@ -12,4 +12,3 @@ class SysInfoRouter(BaseRouter):
         broadcast_sys_info()
         return ['sysinfo']
 
-route_handler.register(SysInfoRouter)
